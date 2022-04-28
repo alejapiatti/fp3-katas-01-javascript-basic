@@ -4,7 +4,8 @@ Para lanzar los tests, colócate en la carpeta "__tests__" desde el terminal, y 
 
 describe("Variables en JavaScript", () => {
     test("Pueden contener strings", () => {
-        // Escribe aquí tu código para hacer pasar el "expect" del test
+        let a ="Hello!";
+        let b = "Estamos en Femtech";
 
         expect(a).toEqual("Hello!");
         expect(b).toEqual("Estamos en Femtech");
